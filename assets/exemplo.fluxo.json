@@ -1,0 +1,402 @@
+{
+  "format": "Fluxo",
+  "version": 1,
+  "rootID": "18FED820-AD5A-4CC2-A470-23624FFECE04",
+  "diagrams": [
+    {
+      "id": "18FED820-AD5A-4CC2-A470-23624FFECE04",
+      "name": "Da ideia ao lançamento",
+      "blocks": [
+        {
+          "id": "669B94D9-387C-4BD3-B1A9-C2A14CF640CB",
+          "title": "Início",
+          "kind": "Início / fim",
+          "x": 180,
+          "y": 110,
+          "width": 86,
+          "height": 38,
+          "tint": 1
+        },
+        {
+          "id": "8BAC8CC1-0A52-48D8-8B2D-EF452F930B4B",
+          "title": "Definir objetivo",
+          "kind": "Processo",
+          "x": 340,
+          "y": 110,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "responsible": "Equipe de produto",
+          "taskIcon": "analysis"
+        },
+        {
+          "id": "4BB69546-254D-4BBD-8C6E-8EEBE5C5D8A5",
+          "title": "Explorar ideias",
+          "kind": "Processo",
+          "x": 550,
+          "y": 110,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "taskIcon": "meeting"
+        },
+        {
+          "id": "8207C448-9947-48F0-ABE6-91FBCCA9B4E5",
+          "title": "Conceito\naprovado?",
+          "kind": "Decisão",
+          "x": 800,
+          "y": 110,
+          "width": 106,
+          "height": 80,
+          "tint": 2
+        },
+        {
+          "id": "7FF617C4-AC27-47F7-9262-733F926D29DF",
+          "title": "Refinar conceito",
+          "kind": "Processo",
+          "x": 1040,
+          "y": 110,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "taskIcon": "manual"
+        },
+        {
+          "id": "2EDB91C8-1F74-4395-8C90-FE9B5F3DC59B",
+          "title": "Criar protótipo",
+          "kind": "Processo",
+          "x": 800,
+          "y": 320,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "responsible": "Equipe de design",
+          "observations": "Transformar a ideia em uma experiência simples e clara.",
+          "taskIcon": "system"
+        },
+        {
+          "id": "8A61E93E-8140-44CC-B1AA-D8C8E6410B22",
+          "title": "Testar experiência",
+          "kind": "Processo",
+          "x": 580,
+          "y": 320,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "taskIcon": "manual"
+        },
+        {
+          "id": "52F0A3F3-FECE-4DCF-BD79-759C29C551E8",
+          "title": "Experiência\nvalidada?",
+          "kind": "Decisão",
+          "x": 350,
+          "y": 320,
+          "width": 110,
+          "height": 82,
+          "tint": 2
+        },
+        {
+          "id": "5D4448B8-442A-4B01-A166-385F3786140C",
+          "title": "Ajustar detalhes",
+          "kind": "Processo",
+          "x": 180,
+          "y": 320,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "taskIcon": "automation"
+        },
+        {
+          "id": "F917004C-EBF3-4AC3-BF4F-30F4A96A42AA",
+          "title": "Preparar entrega",
+          "kind": "Processo",
+          "x": 350,
+          "y": 530,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "checklist": [
+            {
+              "id": "F493F31D-90CF-412E-9FC7-BE97F174BB96",
+              "title": "Revisar conteúdo",
+              "done": false
+            },
+            {
+              "id": "0195CE83-7D20-48BB-803E-EA6B2808040F",
+              "title": "Conferir qualidade",
+              "done": false
+            },
+            {
+              "id": "5B6E7356-4F3F-40F0-AD31-AF6FA7949540",
+              "title": "Alinhar a equipe",
+              "done": false
+            }
+          ],
+          "taskIcon": "document"
+        },
+        {
+          "id": "EDD1E499-9121-46F5-ABF8-3BBFCA456536",
+          "title": "Lançar projeto",
+          "kind": "Processo",
+          "x": 580,
+          "y": 530,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "responsible": "Equipe de entrega",
+          "taskIcon": "integration"
+        },
+        {
+          "id": "F7318570-3579-46C9-9A7C-72E43F716E5D",
+          "title": "Medir resultados",
+          "kind": "Processo",
+          "x": 800,
+          "y": 530,
+          "width": 124,
+          "height": 48,
+          "tint": 0,
+          "taskIcon": "analysis"
+        },
+        {
+          "id": "7BFAF1C1-217C-4F26-B649-84054BEBF366",
+          "title": "Fim",
+          "kind": "Início / fim",
+          "x": 1040,
+          "y": 530,
+          "width": 86,
+          "height": 38,
+          "tint": 4
+        },
+        {
+          "id": "0775ADF6-8747-4B36-BB17-60F4D1F4348E",
+          "title": "Pequenos passos.\nGrandes resultados.",
+          "kind": "Observação",
+          "x": 180,
+          "y": 530,
+          "width": 132,
+          "height": 62,
+          "tint": 0
+        }
+      ],
+      "wires": [
+        {
+          "id": "D81E9EEE-6AC1-482F-9453-CA7804F4DB92",
+          "from": "669B94D9-387C-4BD3-B1A9-C2A14CF640CB",
+          "to": "8BAC8CC1-0A52-48D8-8B2D-EF452F930B4B",
+          "title": "",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "3E592F1F-6468-4832-8601-282AFEE4CEE1",
+          "from": "8BAC8CC1-0A52-48D8-8B2D-EF452F930B4B",
+          "to": "4BB69546-254D-4BBD-8C6E-8EEBE5C5D8A5",
+          "title": "",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "DD62209B-2E32-4FC7-8043-5CDE02B4B0BE",
+          "from": "4BB69546-254D-4BBD-8C6E-8EEBE5C5D8A5",
+          "to": "8207C448-9947-48F0-ABE6-91FBCCA9B4E5",
+          "title": "",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "08442D13-CEFA-417A-87A3-00AB2AEDFE8F",
+          "from": "8207C448-9947-48F0-ABE6-91FBCCA9B4E5",
+          "to": "7FF617C4-AC27-47F7-9262-733F926D29DF",
+          "title": "Revisar",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "19EB8DF3-64CF-41E8-B7A0-6451D2EE9E7B",
+          "from": "7FF617C4-AC27-47F7-9262-733F926D29DF",
+          "to": "4BB69546-254D-4BBD-8C6E-8EEBE5C5D8A5",
+          "title": "",
+          "fromSide": 0,
+          "toSide": 0,
+          "automaticPorts": false,
+          "thickness": 0.9,
+          "manualRoute": [
+            [
+              1040,
+              86
+            ],
+            [
+              1040,
+              36
+            ],
+            [
+              550,
+              36
+            ],
+            [
+              550,
+              86
+            ]
+          ]
+        },
+        {
+          "id": "59995A43-D3F7-4974-9838-E02A1D157BD0",
+          "from": "8207C448-9947-48F0-ABE6-91FBCCA9B4E5",
+          "to": "2EDB91C8-1F74-4395-8C90-FE9B5F3DC59B",
+          "title": "Sim",
+          "fromSide": 2,
+          "toSide": 0,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "6B6635EC-C705-43F4-BCCA-FFA4A8A0363C",
+          "from": "2EDB91C8-1F74-4395-8C90-FE9B5F3DC59B",
+          "to": "8A61E93E-8140-44CC-B1AA-D8C8E6410B22",
+          "title": "",
+          "fromSide": 3,
+          "toSide": 1,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "16BA1E90-62EE-4741-903B-D7C7A86BB951",
+          "from": "8A61E93E-8140-44CC-B1AA-D8C8E6410B22",
+          "to": "52F0A3F3-FECE-4DCF-BD79-759C29C551E8",
+          "title": "",
+          "fromSide": 3,
+          "toSide": 1,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "F8EE4513-3935-4732-9DA0-F720A870EEE1",
+          "from": "52F0A3F3-FECE-4DCF-BD79-759C29C551E8",
+          "to": "5D4448B8-442A-4B01-A166-385F3786140C",
+          "title": "Revisar",
+          "fromSide": 3,
+          "toSide": 1,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "9E530D83-095B-415A-A143-5D6C1B2DBBA3",
+          "from": "5D4448B8-442A-4B01-A166-385F3786140C",
+          "to": "2EDB91C8-1F74-4395-8C90-FE9B5F3DC59B",
+          "title": "",
+          "fromSide": 0,
+          "toSide": 0,
+          "automaticPorts": false,
+          "thickness": 0.9,
+          "manualRoute": [
+            [
+              180,
+              296
+            ],
+            [
+              180,
+              230
+            ],
+            [
+              800,
+              230
+            ],
+            [
+              800,
+              296
+            ]
+          ]
+        },
+        {
+          "id": "B2A0EABC-921F-4AB4-B4AA-740429614653",
+          "from": "52F0A3F3-FECE-4DCF-BD79-759C29C551E8",
+          "to": "F917004C-EBF3-4AC3-BF4F-30F4A96A42AA",
+          "title": "Sim",
+          "fromSide": 2,
+          "toSide": 0,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "F8056536-81C8-40E7-8BC7-0406321B9950",
+          "from": "F917004C-EBF3-4AC3-BF4F-30F4A96A42AA",
+          "to": "EDD1E499-9121-46F5-ABF8-3BBFCA456536",
+          "title": "",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "C6DEFA73-D603-43BF-ADAB-22B79FB7143E",
+          "from": "EDD1E499-9121-46F5-ABF8-3BBFCA456536",
+          "to": "F7318570-3579-46C9-9A7C-72E43F716E5D",
+          "title": "",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "DFE90089-5A62-4BE2-BC5C-89B960940E04",
+          "from": "F7318570-3579-46C9-9A7C-72E43F716E5D",
+          "to": "7BFAF1C1-217C-4F26-B649-84054BEBF366",
+          "title": "",
+          "fromSide": 1,
+          "toSide": 3,
+          "automaticPorts": false,
+          "thickness": 0.9
+        },
+        {
+          "id": "EFA55127-6D6F-448B-A6AC-BCC6EE852E2C",
+          "from": "F917004C-EBF3-4AC3-BF4F-30F4A96A42AA",
+          "to": "0775ADF6-8747-4B36-BB17-60F4D1F4348E",
+          "title": "",
+          "fromSide": 3,
+          "toSide": 1,
+          "automaticPorts": false,
+          "thickness": 0.7,
+          "dashed": true,
+          "showsArrow": false
+        }
+      ],
+      "swimlanes": {
+        "processName": "DA IDEIA AO LANÇAMENTO",
+        "x": 40,
+        "y": 0,
+        "width": 1120,
+        "rows": [
+          {
+            "id": "DFA4167F-ED2F-4297-A866-1C75106B9839",
+            "name": "Estratégia",
+            "height": 210
+          },
+          {
+            "id": "2DFCC7AD-0908-4A7E-9203-287D55330310",
+            "name": "Experiência",
+            "height": 210
+          },
+          {
+            "id": "1AA70412-A8D9-440B-9B8F-6B001B73AC7D",
+            "name": "Entrega",
+            "height": 210
+          }
+        ]
+      },
+      "generalNote": "Um projeto nasce de uma boa pergunta e ganha vida em três movimentos: definir o caminho, validar a experiência e entregar valor. Exemplo fictício para demonstração do Fluxo.",
+      "tags": [
+        "Produto",
+        "Criatividade"
+      ],
+      "isFavorite": true
+    }
+  ]
+}

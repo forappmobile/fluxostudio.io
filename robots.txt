@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://forappmobile.github.io/fluxostudio.io/sitemap.xml
